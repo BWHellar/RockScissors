@@ -1,0 +1,17 @@
+/Users/Guest/Desktop/RockScissors.Solution/RockScissors.Tests/obj/Debug/netcoreapp2.1/RockScissors.Tests.csprojAssemblyReference.cache
+/Users/Guest/Desktop/RockScissors.Solution/RockScissors.Tests/obj/Debug/netcoreapp2.1/RockScissors.Tests.csproj.CoreCompileInputs.cache
+/Users/Guest/Desktop/RockScissors.Solution/RockScissors.Tests/obj/Debug/netcoreapp2.1/RockScissors.Tests.AssemblyInfoInputs.cache
+/Users/Guest/Desktop/RockScissors.Solution/RockScissors.Tests/obj/Debug/netcoreapp2.1/RockScissors.Tests.AssemblyInfo.cs
+/Users/Guest/Desktop/RockScissors.Solution/RockScissors.Tests/bin/Debug/netcoreapp2.1/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+/Users/Guest/Desktop/RockScissors.Solution/RockScissors.Tests/bin/Debug/netcoreapp2.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+/Users/Guest/Desktop/RockScissors.Solution/RockScissors.Tests/bin/Debug/netcoreapp2.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+/Users/Guest/Desktop/RockScissors.Solution/RockScissors.Tests/bin/Debug/netcoreapp2.1/RockScissors.Tests.deps.json
+/Users/Guest/Desktop/RockScissors.Solution/RockScissors.Tests/bin/Debug/netcoreapp2.1/RockScissors.Tests.runtimeconfig.json
+/Users/Guest/Desktop/RockScissors.Solution/RockScissors.Tests/bin/Debug/netcoreapp2.1/RockScissors.Tests.runtimeconfig.dev.json
+/Users/Guest/Desktop/RockScissors.Solution/RockScissors.Tests/bin/Debug/netcoreapp2.1/RockScissors.Tests.dll
+/Users/Guest/Desktop/RockScissors.Solution/RockScissors.Tests/bin/Debug/netcoreapp2.1/RockScissors.Tests.pdb
+/Users/Guest/Desktop/RockScissors.Solution/RockScissors.Tests/bin/Debug/netcoreapp2.1/RockScissors.dll
+/Users/Guest/Desktop/RockScissors.Solution/RockScissors.Tests/bin/Debug/netcoreapp2.1/RockScissors.pdb
+/Users/Guest/Desktop/RockScissors.Solution/RockScissors.Tests/obj/Debug/netcoreapp2.1/RockScissors.Tests.csproj.CopyComplete
+/Users/Guest/Desktop/RockScissors.Solution/RockScissors.Tests/obj/Debug/netcoreapp2.1/RockScissors.Tests.dll
+/Users/Guest/Desktop/RockScissors.Solution/RockScissors.Tests/obj/Debug/netcoreapp2.1/RockScissors.Tests.pdb

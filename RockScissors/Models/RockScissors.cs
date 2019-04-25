@@ -14,51 +14,11 @@ namespace TheGame
 
         public void SetPlayerOneChoice(string choice)
         {
-            _playerOneChoice = choice;
+            _playerOneChoice = choice.ToLower();
         }
         public void SetPlayerTwoChoice(string choice)
         {
-            _playerTwoChoice = choice;
-        }
-        public void SetWinner()
-        {
-            if (_playerOneChoice == _playerTwoChoice)
-            {
-                _gameWinner = "draw";
-            }
-            if (_playerOneChoice == "rock")
-            {
-                if (_playerTwoChoice == "scissors")
-                {
-                    _gameWinner = "playerOne";
-                }
-                if (_playerTwoChoice == "paper")
-                {
-                    _gameWinner = "playerTwo";
-                }
-            }
-            if (_playerOneChoice == "scissors")
-            {
-                if (_playerTwoChoice == "rock")
-                {
-                    _gameWinner = "playerTwo";
-                }
-                if (_playerTwoChoice == "paper")
-                {
-                    _gameWinner = "playerOne";
-                }
-            }
-            if (_playerOneChoice == "paper")
-            {
-                if (_playerTwoChoice == "rock")
-                {
-                    _gameWinner = "playerOne";
-                }
-                if (_playerTwoChoice == "scissors")
-                {
-                    _gameWinner = "playerTwo";
-                }
-            }
+            _playerTwoChoice = choice.ToLower();
         }
 
         public string GetPlayerOneChoice()
@@ -75,11 +35,11 @@ namespace TheGame
             return _gameWinner;
         }
 
-        public void AltSetWinner()
+        public void SetWinner()
         {
             if (_playerOneChoice == _playerTwoChoice)
             {
-                _gameWinner = "draw";
+                _gameWinner = "Draw";
             }
             else
             {
@@ -89,11 +49,11 @@ namespace TheGame
                 string winningWeapon = _outcomesDictionary[matchupString];
                 if(_playerOneChoice == winningWeapon)
                 {
-                    _gameWinner = "playerOne";
+                    _gameWinner = "Player One Wins";
                 }
                 else
                 {
-                    _gameWinner = "playerTwo";
+                    _gameWinner = "Player Two Wins";
                 }
             }
         }

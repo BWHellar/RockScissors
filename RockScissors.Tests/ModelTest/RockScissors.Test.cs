@@ -59,7 +59,7 @@ namespace TheGame.Test
             Game newGame = new Game();
             newGame.SetPlayerOneChoice("paper");
             newGame.SetPlayerTwoChoice("rock");
-            newGame.AltSetWinner();
+            newGame.SetWinner();
             Assert.AreEqual("playerOne", newGame.GetGameWinner());
         }
 
@@ -69,7 +69,7 @@ namespace TheGame.Test
         Game newGame = new Game();
         newGame.SetPlayerOneChoice("scissors");
         newGame.SetPlayerTwoChoice("rock");
-        newGame.AltSetWinner();
+        newGame.SetWinner();
         Assert.AreEqual("playerTwo", newGame.GetGameWinner());
         }
     }

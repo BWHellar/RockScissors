@@ -9,10 +9,8 @@ namespace TheGame
         private string _playerTwoChoice;
 
         private string _gameWinner;
-        private string[] _rock;
-
-        private Dictionary<string[], string> _outcomesDictionary = new Dictionary<string[], string>();
-        _outcomesDictionary = {{{"rock", "scissors"}, "rock"}, {{"paper", "rock"}, "paper"}, {{"paper", "scissors"}, "scissors"}};
+  
+        private Dictionary<string, string> _outcomesDictionary = new Dictionary<string, string>(){{"rockscissors", "rock"}, {"paperrock", "paper"}, {"paperscissors", "scissors"}};
 
         public void SetPlayerOneChoice(string choice)
         {
@@ -77,7 +75,7 @@ namespace TheGame
             return _gameWinner;
         }
 
-        public string AltSetWinner()
+        public void AltSetWinner()
         {
             if (_playerOneChoice == _playerTwoChoice)
             {
@@ -87,7 +85,8 @@ namespace TheGame
             {
                 string[] matchup = new string[] {_playerOneChoice, _playerTwoChoice};
                 Array.Sort(matchup);
-                string winningWeapon = _outcomesDictionary[matchup];
+                string matchupString = string.Join("" , matchup);
+                string winningWeapon = _outcomesDictionary[matchupString];
                 if(_playerOneChoice == winningWeapon)
                 {
                     _gameWinner = "playerOne";

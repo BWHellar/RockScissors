@@ -52,5 +52,25 @@ namespace TheGame.Test
             newGame.SetWinner();
             Assert.AreEqual("playerOne", newGame.GetGameWinner());
         }
+
+        [TestMethod]
+        public void AltSetWinner_PlayerOnePaper_PlayerTwoRock_OutputPlayerOne()
+        {
+            Game newGame = new Game();
+            newGame.SetPlayerOneChoice("paper");
+            newGame.SetPlayerTwoChoice("rock");
+            newGame.AltSetWinner();
+            Assert.AreEqual("playerOne", newGame.GetGameWinner());
+        }
+
+        [TestMethod]
+        public void AltSetWinner_PlayerOneScissors_PlayerTwoRock_OutputPlayerTwo()
+        {
+        Game newGame = new Game();
+        newGame.SetPlayerOneChoice("scissors");
+        newGame.SetPlayerTwoChoice("rock");
+        newGame.AltSetWinner();
+        Assert.AreEqual("playerTwo", newGame.GetGameWinner());
+        }
     }
 }
